@@ -1,102 +1,182 @@
+<!--Aaron 03-03-21-->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon/technicity.png" />
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <title>Technicity</title>
 </head>
+
 <body>
-    <!--MENÚ-->
-    <nav>
-        <ul>
-            <li>
-                <div class=""><a href="proyectos.html" target="_blanck"><img class="" src="img/"/></a></div>Proyectos
-            </li>
-            <li>
-                <div class=""><a href="blog.html" target="_blanck"><img class="" src="img/"/></a></div>Blog
-            </li>
-            <li>
-                <div class=""><a href="servicios.html" target="_blanck"><img class="" src="img/"/></a></div>Servicios
-            </li>
-            <li>
-                <div class=""><a href="productos.html" target="_blanck"><img class="" src="img/"/></a></div>Productos
-            </li>
-            <li>
-                <div class=""><a href="cliente.html" target="_blanck"><img class="" src="img/"/></a></div>Cliente
-            </li>
-        </ul>
-    </nav>
+    
+    <!-- MENU PRINCIPAL -->
+    <div class="menu_principal">
+         
+        <div class="img_index_menu"> 
+            <a href="index.html" target="_blank">
+                <img src="icon/technicity.png" alt="">
+            </a>
+        </div>
+        
+        
+        <div class="espacio">
+        <!--<img class="" src="img/" />-->
+        </div>
+        
+        <a href="proyectos.html" target="_blank">
+        <div class="izq_menu">  
+        PROYECTOS   
+        </div> 
+        </a> 
+        
+        
+        <a href="BLOG.html" target="_blank">            
+        <div class="izq_menu">  
+        BLOG   
+        </div> 
+        </a>
+            
+        <a href="servicios.html" target="_blank">            
+        <div class="izq_menu">  
+        SERVICIOS  
+        </div>  
+        </a>
+     
+        
+        <a href="productos.html" target="_blank">            
+        <div class="izq_menu">  
+        PRODUCTOS 
+        </div>  
+        </a>
+       
+        
+        <div class="espacio2">
+        <!--<img class="" src="img/" />-->
+        </div>
+        
+        
+        <a href="cliente.html" target="_blank">   
+        <div class="izq_menu">  
+        CLIENTE  
+        </div>  
+        </a>
+         
+        
+        <div class="cesta_menu">
+        <a class="ej" href="cesta.html" target="_blank">    
+            <img src="icon/imagencesta4.png" alt="">   
+        </a>
+        </div>
+    
+    </div>
     <!--SLIDER-->
 
 
-
+    
 
 
     <!--LISTA DE PRODUCTOS MÁS VENDIDOS-->
-<table>
-<tr>
-    <td>
-    <img src="img/imagencorei7.jpg" class="">Intel Core i7-7800X 3.5Ghz BOX 299,90€
-    <input type="submit" value="Añadir al carrito">
-    </td>
-</tr>
-<tr>
-    <td>
-    <img src="img/imagenmsi.jpg" class="">MSI Optix G24C4 23.6" LED FullHD 144Hz Freesync Curva 199,99€
-    <input type="submit" value="Añadir al carrito">
-    </td>
-</tr>
-<tr>
-    <td>
-    <img src="img/imagengopro.jpg" class="">GoPro Hero 7 White 184€
-    <input type="submit" value="Añadir al carrito">
-    </td>
-</tr>
-<tr>
-    <td>
-    <img src="img/imagenwebcamrazer.jpg" class="">Razer Kiyo Webcam FullHD 1080p 149€
-    <input type="submit" value="Añadir al carrito">
-    </td>
-</tr>
-<tr>
-    <td>
-    <img src="img/imagenteclado.jpg" class="">Razer Ornata V2 Teclado Híbrido Retroiluminado 89,99€
-    <input type="submit" value="Añadir al carrito">
-    </td>
-</tr>
-<tr>
-    <td>
-    <img src="img/imagenram.jpg" class="">Corsair Vengeance RGB Pro Optimizado AMD DDR4 3200 16GB 2x8GB CL16 109€
-    <input type="submit" value="Añadir al carrito">
-    </td>
-</tr>
-</table>
-<br>
-<nav>
-    <ul>
-        <li>
-            <div class=""><a href="contacto.html" target="_blanck"><img class="" src="img/"/></a></div>Contacto
-        </li>
-        <table>
-        <tr>
-            <td>
-                <div class=""><a href="https://www.facebook.com/" target="_blanck"><img class="" src="icon/iconofacebook.png"/></a></div>Facebook
-            </td>
-            <td>
-                <div class=""><a href="https://www.instagram.com/" target="_blanck"><img class="" src="icon/iconoinstagram.png"/></a></div>Instagram
-            </td>
-            <td>
-                <div class=""><a href="https://twitter.com/" target="_blanck"><img class="" src="icon/iconotwitter.png"/></a></div>Twitter
-            </td>
-        </tr>
-        </table>
-        <li>
-            <div class=""><a href="quienessomos.html" target="_blanck"><img class="" src="img/"/></a></div>Quienes Somos
-        </li>
-    </ul>
-</nav>
+    <div class="galeria">
+
+        <div class="contenedor-imagenes">
+            <div class="image">
+                <img src="img/imagencorei7.jpg" alt="">
+
+                <div class="overlay">
+                    <a href="cesta.html">
+                      <h2>Intel Core i7-7800X 3.5Ghz BOX <br> 299,90€</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="img/imagenmsi.jpg" alt="">
+
+                <div class="overlay">
+                    <a href="cesta.html">
+                      <h2>MSI Optix G24C4 23.6" LED FullHD 144Hz Freesync Curva <br> 199,99€</h2>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="image">
+                <img src="img/imagengopro.jpg" alt="">
+
+                <div class="overlay">
+                    <a href="cesta.html">
+                      <h2>GoPro Hero 7 White <br> 184€</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="img/imagenwebcamrazer.jpg" alt="">
+
+                <div class="overlay">
+                    <a href="cesta.html">
+                      <h2>Razer Kiyo Webcam FullHD 1080p <br> 149€</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="img/imagenteclado.jpg" alt="">
+
+                <div class="overlay">
+                    <a href="cesta.html">
+                      <h2>Razer Ornata V2 Teclado Híbrido Retroiluminado <br> 89,99€</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="img/imagenram.jpg" alt="">
+
+                <div class="overlay">
+                    <a href="cesta.html">
+                      <h2>Corsair Vengeance RGB Pro Optimizado AMD DDR4 3200 16GB 2x8GB CL16 <br> 109€</h2>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <nav>
+        <ul>
+            <li>
+                <div class=""><a href="contacto.html" target="_blanck"><img class="" src="img/" /></a></div>Contacto
+            </li>
+            <table>
+                <tr>
+                    <td>
+                        <div class=""><a href="https://www.facebook.com/" target="_blanck"><img class=""
+                                    src="icon/iconofacebook.png" /></a></div>Facebook
+                    </td>
+                    <td>
+                        <div class=""><a href="https://www.instagram.com/" target="_blanck"><img class=""
+                                    src="icon/iconoinstagram.png" /></a></div>Instagram
+                    </td>
+                    <td>
+                        <div class=""><a href="https://twitter.com/" target="_blanck"><img class=""
+                                    src="icon/iconotwitter.png" /></a></div>Twitter
+                    </td>
+                </tr>
+            </table>
+            <li>
+                <div class=""><a href="quienessomos.html" target="_blanck"><img class="" src="img/" /></a></div>Quienes
+                Somos
+            </li>
+        </ul>
+    </nav>
 </body>
+
 </html>

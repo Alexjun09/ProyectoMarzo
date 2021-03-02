@@ -1,0 +1,116 @@
+/*Aaron 03-03-21*/
+*{
+    background-color: rgb(132, 233, 233);
+    margin: 0%;
+    padding: 0%;
+    font-family: 'DotGothic16', sans-serif;
+    
+}
+
+/*CONTENEDOR PRINCIPAL*/
+.menu_principal{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 30px;
+    
+    
+}
+/*TODOS LOS CONTENEDORES INDIVIDUALES*/
+.menu_principal div{
+    background-color: black;
+    height: 60px;
+    line-height:50px;
+}
+
+/* CONTENEDOR CON LETRA */
+.menu_principal a{
+    text-decoration: none; 
+    color: white;
+}
+.menu_principal .izq_menu{
+    padding-inline: 20px;    
+    
+}
+.menu_principal .izq_menu:hover{
+    background-color: white;
+    color: tomato;  
+}
+
+/* CONTENEDOR CON FOTOS */
+.menu_principal div a img{
+    height: 60px;  
+    width: 60px;
+    background-color:black; 
+}
+
+/* ESPACIOS */
+.menu_principal .espacio1{
+    width: 200px;
+}
+.menu_principal .espacio2{
+    width: 400px;
+}
+
+/* LISTA PRODUCTOS MÁS VENDIDOS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.linea {
+    border-top: 5px solid rgb(0, 183, 255);
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+.contenedor-imagenes .image {
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 149, 248, 0.75);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 102, 255, 0.75);
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.overlay h2 {
+    color: #fff;
+    font-weight: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.image:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+}
